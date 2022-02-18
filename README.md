@@ -4,7 +4,7 @@ https://venom14-foodapp.herokuapp.com/
 venom14.surge.sh -->
 
 
-# MERN Stack Boilerplate
+
 
 ## Installations
 
@@ -67,3 +67,8 @@ npm start
 
 Navigate to [http://localhost:3000/](http://localhost:3000/) in your browser.
 
+* If you use the dockerised mern app or the hosted site , the the commands are:
+  - ``` sudo docker-compose up --build``` in the parent directory
+  - Then open new terminal and write the command 
+  - ``` hostname -I ```
+  - paste the Address in the browser followed by ```:3050```
